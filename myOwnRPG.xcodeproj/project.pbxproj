@@ -14,6 +14,7 @@
 		00F4A8501CE7C2BB00394D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F4A84E1CE7C2BB00394D55 /* LaunchScreen.storyboard */; };
 		00F4A85B1CE7C2C500394D55 /* myOwnRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4A85A1CE7C2C500394D55 /* myOwnRPGTests.swift */; };
 		00F4A8661CE7C2C500394D55 /* myOwnRPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4A8651CE7C2C500394D55 /* myOwnRPGUITests.swift */; };
+		00F4A8741CE7C34300394D55 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4A8731CE7C34300394D55 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		00F4A8611CE7C2C500394D55 /* myOwnRPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myOwnRPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F4A8651CE7C2C500394D55 /* myOwnRPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myOwnRPGUITests.swift; sourceTree = "<group>"; };
 		00F4A8671CE7C2C500394D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F4A8731CE7C34300394D55 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				00F4A8471CE7C2BA00394D55 /* ViewController.swift */,
 				00F4A8491CE7C2BA00394D55 /* Main.storyboard */,
 				00F4A84C1CE7C2BB00394D55 /* Assets.xcassets */,
+				00F4A8731CE7C34300394D55 /* Character.swift */,
 				00F4A84E1CE7C2BB00394D55 /* LaunchScreen.storyboard */,
 				00F4A8511CE7C2BB00394D55 /* Info.plist */,
 			);
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F4A8741CE7C34300394D55 /* Character.swift in Sources */,
 				00F4A8481CE7C2BA00394D55 /* ViewController.swift in Sources */,
 				00F4A8461CE7C2B900394D55 /* AppDelegate.swift in Sources */,
 			);
