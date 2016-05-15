@@ -27,9 +27,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-         Player = Character(attackPower: 40, hp: 100, name: "Kobe")
-         Enemy = Character(attackPower: 55, hp: 100, name: "Kwame")
-        PlaceHolderLbl.text =  "A wild \(Player.name) and \(Enemy.name) has appeared! ohh fuckk"
+         Player = Character(attackPower: 40, hp: 100, name: "Warrior")
+         Enemy = Character(attackPower: 55, hp: 100, name: "Villan")
+        PlaceHolderLbl.text =  "A wild \(Player.name) and \(Enemy.name) have appeared!"
         PlayerHpLbl.text = "\(Player.hp) HP"
         EnemyHpLbl.text = "\(Enemy.hp) HP"
 }
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
             PlayerAttackLbl.hidden = true
             PlayerHpLbl.hidden = true
             
-            PlaceHolderLbl.text = "Congrats you have just defeated \(Enemy.name) Would you like to restart?"
+            PlaceHolderLbl.text = "Congrats you have just defeated  \(Player.name) would you like to restart?"
             PlayerHpLbl.text = "\(Player.hp) HP"
             RestartBtn.hidden = false
             
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         
             
             Player.AttemptAttackCharacter(Enemy.attackPower)
-            PlaceHolderLbl.text = "Oh fuck the \(Player.name) just took a hit of \(Enemy.attackPower) HP"
+            PlaceHolderLbl.text = "Oh snap! The \(Player.name) just took a hit of \(Enemy.attackPower) HP"
                 PlayerHpLbl.text = "\(Player.hp) HP"
             PlayerImg.hidden = true
             EnemyBtn.hidden = true
@@ -124,7 +124,7 @@ class ViewController: UIViewController {
         
             
         Enemy.AttemptAttackCharacter(Player.attackPower)
-        PlaceHolderLbl.text = "Oh fuck the \(Enemy.name) just took a hit of \(Player.attackPower) HP"
+        PlaceHolderLbl.text = "Oh snap! The \(Enemy.name) just took a hit of \(Player.attackPower) HP"
         EnemyHpLbl.text = "\(Enemy.hp) HP"
         EnemyImg.hidden = true
         PlayerAttackBtn.hidden = true
